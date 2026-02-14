@@ -14,3 +14,7 @@ resultado = resultado.sort_values(ascending=False).head(3).reset_index()
 print(resultado)
 
 # ¿ CUAL ES EL DIA DEL MES EN EL QUE MÁS CANCIONES SE PUBLICAN ?
+top_mes = spotify['released_month'].value_counts().head(1)
+print(top_mes)
+
+# ¿ CUAL ES EL AÑO DE LA SEGUNDA CANCION MAS ANTIGUA ?
