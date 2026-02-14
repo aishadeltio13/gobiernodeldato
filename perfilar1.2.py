@@ -18,3 +18,13 @@ top_mes = spotify['released_month'].value_counts().head(1)
 print(top_mes)
 
 # ¿ CUAL ES EL AÑO DE LA SEGUNDA CANCION MAS ANTIGUA ?
+resultado = spotify['released_year'].sort_values(ascending=True).head(2)
+print(resultado)
+
+# ¿ CUAL ES LA MEDIANA DEL BMP ?
+mediana_total = spotify['bpm'].median()
+print(mediana_total)
+
+# ¿ CUAL ES EL VALOR MAS FRECUENTE DE danceability_% Y SU % ?
+resultado = spotify['danceability_%'].value_counts().head(1)
+print(resultado)
