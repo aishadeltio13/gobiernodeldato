@@ -1,0 +1,12 @@
+services:
+  perfilador:
+    # Usamos Python 3.10 
+    image: python:3.10-slim
+    # Le decimos que trabaje dentro de la carpeta /app en el contenedor
+    working_dir: /app
+    # Conectamos tu carpeta de Windows con la carpeta /app del contenedor
+    volumes:
+      - .:/app
+    # El comando que ejecutará al levantarse
+    command: >
+      bash -c "pip install --no-cache-dir -r requirements.txt && python perfilar1.1.py"
