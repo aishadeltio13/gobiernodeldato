@@ -1,0 +1,18 @@
+DocEntry,Date,Clinic,SalesRep,Revenue
+1001,2026-01-15,  Valencia MedSpa  ,Carlos,1200€
+1002,2026-01-16,Madrid Clinic,Maria,2500,50
+1003,15/01/2026,BCN Aesthetic ,Laura,1800 €
+1004,2026-02-01,Sevilla Skin,Carlos,
+1005,2026-02-10,  Bilbao Derma,Javier,950
+1002,2026-01-16,Madrid Clinic,Maria,2500,50
+1006,2026-05-40,Valencia MedSpa,Carlos,1300€
+1007,2026-02-15,,Laura,2100,00€
+1008,2026-02-20,Madrid Clinic,Maria,NaN
+1009,2026-02-22,  BCN Aesthetic,Laura,1500
+1010,01/03/2026,Valencia MedSpa,Carlos, 850 € 
+1011,2026-03-05,Sevilla Skin,Carlos,1100,75
+1012,2026-03-08,Bilbao Derma,Javier,
+1013,2026-03-10,Madrid Clinic,Maria,3200€
+1014,2026-03-15,BCN Aesthetic ,Laura,1900,25
+1015,2026-03-20,  Valencia MedSpa  ,Carlos,1200€
+1006,2026-05-40,Valencia MedSpa,Carlos,1300€

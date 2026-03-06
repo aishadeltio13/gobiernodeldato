@@ -1,0 +1,19 @@
+Importar: Crea un Notebook nuevo y usa pd.read_csv('teoxane_sales_dirty.csv') para cargar los datos. (Ojo, mira bien la columna Revenue cuando la importes, a ver si Pandas se lía con las comas).
+
+Explorar: Usa df.head(), df.info() y df.isnull().sum() para ver el tamaño del desastre.
+
+Limpiar:
+
+Elimina las filas duplicadas.
+
+Arregla los espacios extra en los nombres de las clínicas.
+
+Rellena las clínicas vacías con "Unknown Clinic".
+
+Transforma la columna Revenue a números flotantes (quitando símbolos y arreglando las comas).
+
+Rellena los ingresos vacíos (NaN o nulos) con la mediana de los ingresos.
+
+Convierte las fechas a formato datetime (forzando los errores como 2026-05-40 a NaT).
+
+Analizar: Cuando esté limpio, agrupa los datos para decirme: ¿Qué vendedor (SalesRep) ha generado más ingresos totales?
