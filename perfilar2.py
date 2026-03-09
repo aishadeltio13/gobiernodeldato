@@ -3,9 +3,5 @@ import numpy as np
 import random
 
 
-# Load the dataset
-df = pd.read_csv('teoxane_sales_dirty.csv')
-
-# Explore the dataset
-print(df.head())
-print(df.info())
+df_crudo = pd.read_csv('teoxane_sales_dirty.csv', sep='\n', header=0, names=['raw_data'])
+df = df_crudo['raw_data'].str.split(',', n=4, expand=True)
